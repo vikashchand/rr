@@ -12,7 +12,15 @@
 "dest":"app.py"
 
 }
-]
+],
+    {
+  "functions": {
+    "api/**/*.py": {
+      "excludeFiles": "templates/**"
+    }
+  }
+}
+
 
 
 
